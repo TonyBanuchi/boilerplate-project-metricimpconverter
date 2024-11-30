@@ -145,8 +145,8 @@ function ConvertHandler() {
     switch(initUnit){
       case 'km' : value = initNum / conversionTable.miToKm;break;
       case 'mi' : value = initNum * conversionTable.miToKm;break;
-      case 'lbs' : value = initNum / conversionTable.kgToLbs;break;
-      case 'kg' : value = initNum * conversionTable.kgToLbs;break;
+      case 'kg' : value = initNum / conversionTable.kgToLbs;break;
+      case 'lbs' : value = initNum * conversionTable.kgToLbs;break;
       case 'L' : value = initNum / conversionTable.galToL;break;
       case 'gal' : value = initNum * conversionTable.galToL;break;
     }
